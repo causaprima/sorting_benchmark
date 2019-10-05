@@ -79,5 +79,3 @@ plot = descending_array.T.plot(logy=True, style='-o', figsize=(10, 8), xlim=[10,
 plot.set_xlabel('descending_array size')
 plot.set_ylabel('time (sec)')
 plt.savefig('/Users/home/PycharmProjects/Theory_of_computation/descending_array.png')
-
-print("Success!")
